@@ -6,16 +6,25 @@
 //
 
 import SwiftUI
+import MessageUI
 
 struct ContentView: View {
+    @State private var isShowingMessageComposer = false
+        
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Send Message") {
+                isShowingMessageComposer = true
+                
+            }
+            Text("SMS: \(MFMessageComposeViewController.canSendText())")
+            Text("Attachments: \(MFMessageComposeViewController.canSendAttachments())")
+            Text("Subject: \(MFMessageComposeViewController.canSendSubject())")
+            
         }
-        .padding()
+        .sheet(isPresented: $isShowingMessageComposer) {
+            MessageComposeView(isShowing: $isShowingMessageComposer, recipients: ["erik.dungan@gmail.com"], body: "Hello, this is a test message!")
+        }
     }
 }
 

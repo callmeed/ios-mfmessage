@@ -11,6 +11,7 @@
 		919FEC472CAF02A000038513 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919FEC462CAF02A000038513 /* ContentView.swift */; };
 		919FEC492CAF02A100038513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919FEC482CAF02A100038513 /* Assets.xcassets */; };
 		919FEC4C2CAF02A100038513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919FEC4B2CAF02A100038513 /* Preview Assets.xcassets */; };
+		919FEC532CAF03A000038513 /* MessageComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919FEC522CAF03A000038513 /* MessageComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		919FEC462CAF02A000038513 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		919FEC482CAF02A100038513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919FEC4B2CAF02A100038513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		919FEC522CAF03A000038513 /* MessageComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				919FEC442CAF02A000038513 /* ComposeTestApp.swift */,
 				919FEC462CAF02A000038513 /* ContentView.swift */,
+				919FEC522CAF03A000038513 /* MessageComposeView.swift */,
 				919FEC482CAF02A100038513 /* Assets.xcassets */,
 				919FEC4A2CAF02A100038513 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				919FEC472CAF02A000038513 /* ContentView.swift in Sources */,
 				919FEC452CAF02A000038513 /* ComposeTestApp.swift in Sources */,
+				919FEC532CAF03A000038513 /* MessageComposeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
